@@ -1,4 +1,4 @@
-namespace part1 
+namespace part1
 {
     public class MyFirstCode
     {
@@ -14,7 +14,7 @@ namespace part1
             Console.Write("This is ");
             Console.Write("the second ");
             Console.Write("line.");
-        }        
+        }
     }
 
     public class Literals
@@ -105,4 +105,101 @@ namespace part1
         }
 
     }
+
+    public class NumberOperations
+    {
+        public void Addition()
+        {
+            int firstNumber = 12;
+            int secondNumber = 7;
+            Console.WriteLine(firstNumber + secondNumber);
+        }
+
+        public void MathOperations()
+        {
+            int sum = 7 + 5;
+            int difference = 7 - 5;
+            int product = 7 * 5;
+            int quotient = 7 / 5;
+
+            Console.WriteLine("Sum: " + sum);
+            Console.WriteLine("Difference: " + difference);
+            Console.WriteLine("Product: " + product);
+            Console.WriteLine("Quotient: " + quotient);
+        }
+
+        public void DivisionByDecimalLiteral()
+        {
+            // decimal decimalQuotient = 7.0m / 5;
+            // Console.WriteLine($"Decimal quotient: {decimalQuotient}");
+
+            //For this to work, the quotient (left of the assignment operator) must be of type decimal and at least one of numbers being divided must also be of type decimal (both numbers can also be a decimal type).
+
+
+            //invalid code
+            // int decimalQuotient = 7 / 5.0m;
+            // int decimalQuotientB = 7.0m / 5;
+            // int decimalQuotientC = 7.0m / 5.0m;
+            //decimal decimalQuotient = 7 / 5;
+            //Console.WriteLine($"Decimal quotient: {decimalQuotient}");
+        }
+
+        public void CastIntegerDivision()
+        {
+            int first = 7;
+            int second = 5;
+            decimal quotient = (decimal)first / (decimal)second;
+            Console.WriteLine(quotient);
+        }
+
+        public void incrementOperatorBeforeAndAfterTheValue()
+        {
+            int value = 1;
+            value++;
+            Console.WriteLine("First: " + value);
+            Console.WriteLine($"Second: {value++}");
+            Console.WriteLine("Third: " + value);
+            Console.WriteLine("Fourth: " + (++value));
+
+            //value++ - Retrieve the current value of the variable value and use that in the string interpolation operation, then increament it.
+            //++value - Retrieve the new incremented value of the variable value and use that in the string operation.
+        }
+
+        public void Challenge()
+        {
+            int fahrenheit = 94;
+            decimal multiplier = (decimal)5 / (decimal)9;
+            fahrenheit -= 32;
+            decimal result = (decimal)fahrenheit * multiplier;
+
+            Console.WriteLine($"{result} Celcius");
+
+            // answer
+            int fahrenheitA = 94;
+            decimal celsius = (fahrenheitA - 32m) * (5m / 9m);
+            Console.WriteLine("The temperature is " + celsius + " Celsius.");
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
