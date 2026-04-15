@@ -38,7 +38,12 @@ var arrays = new Arrays();
 //arrays.WorkingWithArrays();
 //arrays.ArrayInitialization();
 //arrays.Foreach();
-arrays.Challenge();
+//arrays.Challenge();
+
+var branching = new Branching();
+//branching.SwitchMethod();
+//branching.ForLoop();
+branching.FizzBuzz();
 
 
 
