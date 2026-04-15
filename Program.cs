@@ -1,6 +1,7 @@
 ﻿using part1;
 using part2;
 using part3;
+using part4;
 
 var myFirstCode = new MyFirstCode();
 //myFirstCode.HelloWorld();
@@ -43,7 +44,16 @@ var arrays = new Arrays();
 var branching = new Branching();
 //branching.SwitchMethod();
 //branching.ForLoop();
-branching.FizzBuzz();
+//branching.FizzBuzz();
+
+var dataTypes = new DataTypes();
+//dataTypes.SignedIntegralTypes();
+//dataTypes.UnsignedIntegralTypes();
+//dataTypes.SignedFloatingPointTypes();
+//dataTypes.ReferenceTypeVariable();
+//dataTypes.TypeCasting();
+//dataTypes.ArrayHelperMethods();
+dataTypes.StringFormatting();
 
 
 
