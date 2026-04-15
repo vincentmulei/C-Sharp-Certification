@@ -1,5 +1,6 @@
-﻿using System;
-using part1;
+﻿using part1;
+using part2;
+using part3;
 
 var myFirstCode = new MyFirstCode();
 //myFirstCode.HelloWorld();
@@ -28,9 +29,16 @@ var numberOperations = new NumberOperations();
 //numberOperations.Challenge();
 
 
+var methodCall = new MethodCall();
 
+//methodCall.GetLargerNumber();
 
+var arrays = new Arrays();
 
+//arrays.WorkingWithArrays();
+//arrays.ArrayInitialization();
+//arrays.Foreach();
+arrays.Challenge();
 
 
 
