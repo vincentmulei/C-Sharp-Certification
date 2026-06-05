@@ -2,6 +2,7 @@
 using part2;
 using part3;
 using part4;
+using working_with_files;
 
 var myFirstCode = new MyFirstCode();
 //myFirstCode.HelloWorld();
@@ -47,13 +48,18 @@ var branching = new Branching();
 //branching.FizzBuzz();
 
 var dataTypes = new DataTypes();
+
 //dataTypes.SignedIntegralTypes();
 //dataTypes.UnsignedIntegralTypes();
 //dataTypes.SignedFloatingPointTypes();
 //dataTypes.ReferenceTypeVariable();
 //dataTypes.TypeCasting();
 //dataTypes.ArrayHelperMethods();
-dataTypes.StringFormatting();
+//dataTypes.StringFormatting();
+
+var file = new FileOperations();
+
+file.FileProperties();
 
 
 

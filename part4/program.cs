@@ -67,13 +67,11 @@ namespace part4
             // Console.WriteLine($"ref_B[0]: {ref_B[0]}");
 
 
-            string message = "My name is Vincent";
-            string newMessage = message;
-            newMessage = "My name is Mulei";
+            // string message = "My name is Vincent";
+            // string newMessage = message;
+            // newMessage = "My name is Mulei";
 
-            Console.WriteLine(message);
-
-
+            // Console.WriteLine(message);
         }
 
         private void ModifyInt(int a)
